@@ -1,0 +1,36 @@
+{
+  "name": "proceed",
+  "description": "fluent flow control without the boilerplate",
+  "version": "0.0.1",
+  "author": "Matthew Lyon <matthew@lyonheart.us>",
+  "keywords": [
+    "util",
+    "functional",
+    "callbacks",
+    "fluent",
+    "promises"
+  ],
+  "tags": [
+    "util",
+    "functional",
+    "callbacks",
+    "fluent",
+    "promises"
+  ],
+  "homepage": "https://github.com/mattly/proceed",
+  "repository": "git://github.com/mattly/proceed.git",
+  "bugs": "https://github.com/mattly/proceed/issues",
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "mocha": "1.8.x",
+    "chai": "1.4.x"
+  },
+  "scripts": {
+    "prepublish": "make index.js",
+    "test": "make test"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  }
+}
